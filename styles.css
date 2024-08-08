@@ -8,12 +8,39 @@ body {
     height: 400px;
 }
 
+.image {
+    border: 5px solid green;
+    border-radius: 10px;
+    height: 400px;
+}
+
+/* Estilos para los botones de enlace */
 .link-button {
+    display: inline-block; /* Para que el padding y otros estilos se apliquen correctamente */
     text-decoration: none;
-    color: black;
-    border: 1px solid gray;
-    background-color: #f2f2f2;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 2px 3px #888888;
+    color: white; /* Color del texto */
+    background-color: #007BFF; /* Color de fondo del botón */
+    border: 2px solid #007BFF; /* Borde del botón */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
+    font-size: 16px; /* Tamaño de fuente */
+    font-weight: bold; /* Fuente en negrita */
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s; /* Transiciones suaves */
+}
+
+/* Efectos al pasar el mouse sobre el botón */
+.link-button:hover,
+.link-button:focus {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+    border-color: #0056b3; /* Color del borde al pasar el ratón */
+    color: white; /* Color del texto al pasar el ratón */
+    text-decoration: none; /* Sin subrayado al pasar el ratón */
+    outline: none; /* Quitar el borde de enfoque por defecto en algunos navegadores */
+}
+
+/* Estilo para el estado activo del botón */
+.link-button:active {
+    background-color: #004494; /* Color de fondo cuando se hace clic */
+    border-color: #004494; /* Color del borde cuando se hace clic */
 }

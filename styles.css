@@ -5,43 +5,43 @@
 // <weight>: Use a value from 400 to 900
 
 .bodoni-moda-sc-<uniquifier> {
-  font-family: "Bodoni Moda SC", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+font-family: "Bodoni Moda SC", serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
 }
-  
+
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 1 to 1000
 
 .ysabeau-sc-<uniquifier> {
-  font-family: "Ysabeau SC", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+font-family: "Ysabeau SC", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
 }
   */
 
-  h2{
+h2{
     font-family: "Ysabeau SC", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
 }
 
-  h1{
+h1{
     font-family: "Bodoni Moda SC", serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-  }
+}
 
-  p{
+p{
     font-family: "Ysabeau SC", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-  }
+}
 body {
     background-color: rgb(255, 255, 165);
 }

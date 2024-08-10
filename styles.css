@@ -43,21 +43,23 @@ p{
     font-style: normal;
 }
 body {
-    background-color: rgb(255, 255, 165);
+    background: linear-gradient(to bottom, #0d1b2a, #1b263b, #415a77, #778da9);
+    color: white;
+    font-family: Arial, sans-serif;
 }
 
-.image{
-    border: 5px solid green;
+.image {
+    border: 5px solid #0f4c75;
     border-radius: 10px;
     height: 400px;
 }
 
 .link-button {
     text-decoration: none;
-    color: black;
-    border: 1px solid gray;
-    background-color: #f2f2f2;
+    color: white;
+    border: 1px solid #0f4c75;
+    background-color: #3282b8;
     padding: 5px;
     border-radius: 5px;
-    box-shadow: 2px 3px #888888;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.5);
 }

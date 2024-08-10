@@ -49,9 +49,12 @@ body {
 }
 
 .image {
-    border: 5px solid #0f4c75;
+    display: block;
+    margin: 0 auto;
     border-radius: 10px;
     height: 400px;
+    filter: brightness(1.2), contrast(1.4);
+    box-shadow: 2px 2px 4px 0 rgba(20, 20, 20, 0.3);
 }
 
 .link-button {

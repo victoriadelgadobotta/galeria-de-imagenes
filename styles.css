@@ -1,46 +1,67 @@
-body {
-    background-color: rgb(255, 255, 165);
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Yellowtail&family=Ysabeau+SC:wght@1..1000&display=swap');
+
+/*// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
+.bodoni-moda-sc-<uniquifier> {
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
-.image{
-    border: 5px solid green;
-    border-radius: 10px;
-    height: 400px;
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 1 to 1000
+
+.ysabeau-sc-<uniquifier> {
+    font-family: "Ysabeau SC", sans-serif;
+    -optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+  */
+
+h2{
+    font-family: "Ysabeau SC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+h1{
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+p{
+    font-family: "Ysabeau SC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+body {
+    background: linear-gradient(to bottom, #0d1b2a, #1b263b, #415a77, #778da9);
+    color: white;
+    font-family: Arial, sans-serif;
 }
 
 .image {
-    border: 5px solid green;
+    border: 5px solid #0f4c75;
     border-radius: 10px;
     height: 400px;
 }
 
-/* Estilos para los botones de enlace */
 .link-button {
-    display: inline-block; /* Para que el padding y otros estilos se apliquen correctamente */
     text-decoration: none;
-    color: white; /* Color del texto */
-    background-color: #007BFF; /* Color de fondo del botón */
-    border: 2px solid #007BFF; /* Borde del botón */
-    padding: 10px 20px; /* Espaciado interno */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
-    font-size: 16px; /* Tamaño de fuente */
-    font-weight: bold; /* Fuente en negrita */
-    transition: background-color 0.3s, border-color 0.3s, color 0.3s; /* Transiciones suaves */
-}
-
-/* Efectos al pasar el mouse sobre el botón */
-.link-button:hover,
-.link-button:focus {
-    background-color: #0056b3; /* Color de fondo al pasar el ratón */
-    border-color: #0056b3; /* Color del borde al pasar el ratón */
-    color: white; /* Color del texto al pasar el ratón */
-    text-decoration: none; /* Sin subrayado al pasar el ratón */
-    outline: none; /* Quitar el borde de enfoque por defecto en algunos navegadores */
-}
-
-/* Estilo para el estado activo del botón */
-.link-button:active {
-    background-color: #004494; /* Color de fondo cuando se hace clic */
-    border-color: #004494; /* Color del borde cuando se hace clic */
+    color: white;
+    border: 0.1em solid #333333;
+    border-radius: 4em;
+    background-color: #ca81a7;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    box-shadow: 0.2em 0.3em rgba(0, 0, 0, 0.5);
+    margin-bottom: 1em;
 }

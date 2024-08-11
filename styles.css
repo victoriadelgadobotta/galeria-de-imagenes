@@ -46,22 +46,29 @@ body {
     background: linear-gradient(to bottom, #0d1b2a, #1b263b, #415a77, #778da9);
     color: white;
     font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 2em;
 }
 
 .image {
-    border: 5px solid #0f4c75;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #ca81a7;
     border-radius: 10px;
-    height: 400px;
+    height: 385px;
+    filter: brightness(1.2) contrast(1.4);
+    box-shadow: 2px 2px 4px rgba(20, 20, 20, 0.3);
 }
 
 .link-button {
     text-decoration: none;
     color: white;
     border: 0.1em solid #333333;
-    border-radius: 4em;
-    background-color: #ca81a7;
-    padding: 0.5em;
     border-radius: 0.5em;
+    background-color: #ca81a7;
+    padding: 0.5em 1em;
     box-shadow: 0.2em 0.3em rgba(0, 0, 0, 0.5);
-    margin-bottom: 1em;
+    margin-top: 3em; /* Aumentado margen superior */
+    margin-bottom: 2em; /* Aumentado margen inferior para separación */
 }

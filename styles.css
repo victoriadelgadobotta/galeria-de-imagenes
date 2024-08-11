@@ -25,39 +25,49 @@
 h2{
     font-family: "Ysabeau SC", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight:bold;
     font-style: normal;
+    letter-spacing: 5px;
+    text-align: center;
 }
 
 h1{
-    font-family: "Bodoni Moda SC", serif;
+    font-family: "Ysabeau SC", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight:bold;
     font-style: normal;
+    letter-spacing: 10px;
+    text-align: center;
 }
 
 p{
     font-family: "Ysabeau SC", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight:bold;
     font-style: normal;
+    text-align: center;
 }
 body {
     background: linear-gradient(to bottom, #0d1b2a, #1b263b, #415a77, #778da9);
     color: white;
     font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .image {
     display: block;
     margin: 0 auto;
     border-radius: 10px;
-    height: 400px;
+    height: 385px;
     filter: brightness(1.2), contrast(1.4);
     box-shadow: 2px 2px 4px 0 rgba(20, 20, 20, 0.3);
 }
 
 .link-button {
+    display:inline-block;
+    margin: 0 auto;
     text-decoration: none;
     color: white;
     border: 1px solid #0f4c75;

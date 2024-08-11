@@ -5,12 +5,11 @@
 // <weight>: Use a value from 400 to 900
 
 .bodoni-moda-sc-<uniquifier> {
-    font-family: "Bodoni Moda SC", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
+font-family: "Bodoni Moda SC", serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
 }
-<<<<<<< HEAD
 
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 1 to 1000
@@ -23,6 +22,15 @@
 }
   */
 
+h1{
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight:bold;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
 h2{
     font-family: "Ysabeau SC", sans-serif;
     font-optical-sizing: auto;
@@ -32,14 +40,6 @@ h2{
     text-align: center;
 }
 
-h1{
-    font-family: "Ysabeau SC", sans-serif;
-    font-optical-sizing: auto;
-    font-weight:bold;
-    font-style: normal;
-    letter-spacing: 10px;
-    text-align: center;
-}
 
 p{
     font-family: "Ysabeau SC", sans-serif;
@@ -48,6 +48,7 @@ p{
     font-style: normal;
     text-align: center;
 }
+
 body {
     background: linear-gradient(to bottom, #0d1b2a, #1b263b, #415a77, #778da9);
     color: white;
@@ -60,16 +61,13 @@ body {
 .image {
     display: block;
     margin: 0 auto;
-
-}
-.image{
     border: 5px solid green;
-
     border-radius: 10px;
     height: 385px;
     filter: brightness(1.2), contrast(1.4);
     box-shadow: 2px 2px 4px 0 rgba(20, 20, 20, 0.3);
 }
+
 
 .link-button {
     display:inline-block;
@@ -81,4 +79,8 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px rgba(0, 0, 0, 0.5);
+    font-family: "Ysabeau SC", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
+

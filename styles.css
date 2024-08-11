@@ -1,22 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=swap');
+
+/* Estilos para Bodoni Moda SC */
+.bodoni-moda-sc-custom {
+    font-family: "Bodoni Moda SC", serif;
+    font-weight: 400; /* Cambia esto según el peso deseado */
+    font-style: normal;
+}
+
+/* Estilos para Ysabeau SC */
+.ysabeau-sc-custom {
+    font-family: "Ysabeau SC", sans-serif;
+    font-weight: 400; /* Cambia esto según el peso deseado */
+    font-style: normal;
+}
+
+/* Estilos generales para los encabezados y párrafos */
+h1 {
+    font-family: "Ysabeau SC", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Ysabeau SC", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+p {
+    font-family: "Ysabeau SC", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+/* Estilo del cuerpo */
 body {
-    background-color: rgb(255, 255, 165);
+    background: linear-gradient(to bottom, #0d1b2a, #1b263b, #415a77, #778da9);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 2em;
 }
 
-.image{
-    border: 5px solid green;
-    border-radius: 10px;
-    height: 400px;
-}
-
-
-.link-button {
-    display:inline-block;
+/* Estilo de la imagen */
+.image {
+    display: block;
     margin: 0 auto;
+    border: 5px solid #ca81a7;
+    border-radius: 10px;
+    height: 385px;
+    filter: brightness(1.2) contrast(1.4);
+    box-shadow: 2px 2px 4px rgba(20, 20, 20, 0.3);
+}
+
+/* Estilo del botón de enlace */
+.link-button {
     text-decoration: none;
-    color: black;
-    border: 1px solid gray;
-    background-color: #f2f2f2;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 2px 3px #888888;
+    color: white;
+    border: 0.1em solid #333333;
+    border-radius: 0.5em;
+    background-color: #ca81a7;
+    padding: 0.5em 1em;
+    box-shadow: 0.2em 0.3em rgba(0, 0, 0, 0.5);
+    margin-top: 3em; /* Aumentado margen superior */
+    margin-bottom: 2em; /* Aumentado margen inferior para separación */
 }
